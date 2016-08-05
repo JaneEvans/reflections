@@ -22,6 +22,7 @@ The diagram is like a tree graph which shows how each branch created so that I c
 
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 By merging two branch together we will have one new branch which combines both two branches' changes.
+We represent it in the diagram because it's easy to show the parant branch.
 
 7. What are the pros and cons of Git¡¯s automatic merging vs. always doing merges manually?
 Pros: in case we forget to merge some branches when they should be.
@@ -29,7 +30,6 @@ Cons: Doing merges manually allows us to choose which branches and at which poin
       It also avoids too many merges that create too many combinations of the branches.
 
 
-We represent it in the diagram because it's easy to show the parant branch.
 
 
 
