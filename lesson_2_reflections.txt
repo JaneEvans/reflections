@@ -20,6 +20,14 @@ Branchs will help keep my original work as well as allow me to commit the new ch
 5. How do the diagrams help you visualize the branch structure?
 The diagram is like a tree graph which shows how each branch created so that I can easily tell its mother branck.
 
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+By merging two branch together we will have one new branch which combines both two branches' changes.
+We represent it in the diagram because it's easy to show the parant branch.
+
+
+
+
+
 
 
 
