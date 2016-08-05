@@ -3,7 +3,15 @@ A .git folder will be created in the repository folder.
 I need to initialize a repository because I want to do version control in that folder.
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
-Staging area is like a temprorary folder that store the files from the repository before commit. Working directory is the folder that we are working on; and repository has a bunch of metadata that contains the version control information
+Staging area is like a temprorary folder that store the files from the repository before commit. 
+Working directory is the folder that we are working on; 
+and repository has a bunch of metadata that contains the version control information
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+I add only only file to the staging area everytime, and then commit. 
+By using "git diff --staged" before committing, I can make sure there is only one logical change I will commit.
+
+
 
 
 
