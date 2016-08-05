@@ -11,6 +11,12 @@ and repository has a bunch of metadata that contains the version control informa
 I add only only file to the staging area everytime, and then commit. 
 By using "git diff --staged" before committing, I can make sure there is only one logical change I will commit.
 
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I want to test some new features on the program;
+If I want to make different language versions of this program;
+If I want to try different methods.
+Branchs will help keep my original work as well as allow me to commit the new changes.
+
 
 
 
