@@ -1,0 +1,31 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The bug is usually among the changes.
+Once we can have all of the differences between two verisons of a file,
+we can limit the searching range from the whole file to just these differences.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I may make some mistakes when editting the file, or may want to check back to see my previous ideas, or may use some old version file for a different project. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: I can decide when to save the change (like one commit per logical change), so that I can have a better idea of each version and avoid too many versions of the file.
+Cons: I may forget to create a commit to save the change of the file, or there may be some computer issues happenning while I am editting the file and it make me lose all of the changes.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because there are different version control needs.
+
+5. How can you use the commands git log and git diff to view the history of files?
+I can use git log in a repository to look at the IDs and comments of each commit; 
+once I decide which two commit(s) change(s) I want to compare, I can quit from git log and use git diff following the two commit IDs to check the difference. 
+git config --global color.ui auto will help set up different colors on different types of changes so I can easily tell the differences.
+
+6. How might using version control make you more confident to make changes that could break something?
+Version control will help save the old versions so that if I make changes that break something, I can convert back to an old but correct version; 
+besides, by comparing different versions, I can find which change(s) causes the breaking-down.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+I want to try using Git for collaborating with my colleagues to modify our programs.
+
+
+
+
+ 
