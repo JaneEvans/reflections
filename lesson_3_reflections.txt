@@ -16,5 +16,13 @@ Branches: it's the labels of commits
 It helps solve the conflicts of push by merging the last known state of the remote and the local locally before pushing
 to GitHub
 
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using Git or GitHub, we keep "master" program and then make changes on the copies of the "master" program;
+then we decide if we want to update the "master" program with any changes; and go on.
+Using Git or GitHub can prevent making copies of the "master" program so that there won't be redundant working files.
+Therefore, using Git/GitHug would be easier for project management. In the other hand, using Git/GitHub would be harder
+to use because it's not as intuitive as making copies of files (although it's the same idea), we need more time to get
+familiar with the use of Git or GitHub.
+
 
 
