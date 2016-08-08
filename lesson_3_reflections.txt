@@ -24,5 +24,16 @@ Therefore, using Git/GitHug would be easier for project management. In the other
 to use because it's not as intuitive as making copies of files (although it's the same idea), we need more time to get
 familiar with the use of Git or GitHub.
 
+6. When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+When me and my colleagues are making changes on the same file at the same time; 
+or when I want to make a separate version but also want to keep the original one.
+It will be easier to check the changes if making changes directly in master branch.
+It helps solve the conflicts between the changes made by me and my colleagues by making changes in a separate branch.
+It also allows me to have different versions without changing the original one.
+
+
+
+
 
 
